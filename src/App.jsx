@@ -9,7 +9,7 @@ const App = () => {
  const submitHandler=(e)=>{
    e.preventDefault();
   //  console.log(question)
-  axios.post('https://next-gem-two.vercel.app/getResponse',{
+  axios.post('https://next-gem-backend.vercel.app/getResponse',{
   // axios.post('http://localhost:3000/getResponse',{
     question:question
   }).then(res=>{
