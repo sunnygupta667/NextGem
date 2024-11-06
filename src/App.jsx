@@ -44,7 +44,7 @@ const speakHandler = () => {
 
   return (
     <>
-      <div className="w-full h-screen fixed bg-[#050412] flex flex-col justify-center items-center gap:8 md:gap-16 p-4">
+      <div className="w-full h-screen bg-[#050412] flex flex-col justify-center items-center gap-16 p-4">
         {/* Image Container */}
         <div className="w-24 h-24 lg:h-44 lg:w-44 md:w-32 md:h-32 rounded-full animate-glow flex justify-center items-center overflow-hidden">
           <img 
